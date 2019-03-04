@@ -1,0 +1,15 @@
+version: '2'
+services:
+    chama-app:
+        image: chama
+        environment:
+            - _JAVA_OPTIONS=-Xmx512m -Xms256m
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:mysql://chama-mysql:3306/chama?useUnicode=true&characterEncoding=utf8&useSSL=false
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+        ports:
+            - 9191:9191
+    chama-mysql:
+        extends:
+            file: mysql.yml
+            service: chama-mysql
