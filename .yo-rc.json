@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "io.ghacupha.chama",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "chama",
+    "packageName": "io.ghacupha.chama",
+    "packageFolder": "io/ghacupha/chama",
+    "serverPort": "45002",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "OWEwOTk0MDQ4ZmE4ZWNmYWU0ZjM1MDU4YmI5ODNiNjhmMTkzNmViMjM5NTNjMjUwMGI5ZjQ5ZjhkMmVhMDhhNzVjYzgzYTk4YTZiYjNjOWY1YjM0YTEzYzlhZmRiNDc5MjMwMDE2NTE5NDczYjk4MTljMGYzNTFmZmM5NDM2ZWI=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "chama",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "it"]
+  }
+}
